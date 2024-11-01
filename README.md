@@ -13,6 +13,15 @@ Example 3: One Shot Roulette Defend against waves of enemies, with a caveat: Eve
 ![IMG_8334](https://github.com/user-attachments/assets/a9335ae6-3f82-4c7e-a908-dae16d23f11d)
 
 
+# Implementation Summary
+
+I ended up implementing three versions of the spellcasting idea, with each way using the motion of the controller (and triggers) to cast different spells:
+1. Tracing a glyph using the staff as a brush. The player would have to connect nodes via a line in a specific order, directed by their spellbook and the on-key musical notes that would play if they traced in the correct order.
+2. Swiping in a series of specific directions. The player would see a series of arrows on their spellbook, and would have to swipe the controller in the same series of directions as shown on their book.
+3. Aiming a fireball at targets: The player would have to shoot fireballs conjured from their staff into their targets--flaming rings.
+
+Following my test in-class, the main feedback I got was that the position of staff in the VR space (especially for drawing and swiping) was somewhat disjointed from the position of the hand controller in real space, and that the method of casting the spells was a bit confusing. I did expect that most peoples favorite minigame was tracing the glyph as that was also my favorite (and most fun to program). I think the spell-tracing interaction is also the most expandable to a larger game, with more spells, features, etc.
+
 # Test Questions
 
 Pre-test
@@ -78,7 +87,7 @@ Post
 Pre
 1. Superhot, steamvr
 2. Mouse and keys
-3. Being able to move your hadn, rNge of movement
+3. Being able to move your hand, range of movement
 
 Post
 1. fire circle
@@ -101,7 +110,7 @@ Post
 Pre
 1. Fire circles
 2. All feel samey, circles graphical output
-3. Tike based interaction, competition, racing to complete, build up a spell recipe. A lot of gestures
+3. Time based interaction, competition, racing to complete, build up a spell recipe. A lot of gestures
 
 Post
 1. A little bit. Superhot
